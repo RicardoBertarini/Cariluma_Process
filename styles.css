@@ -178,6 +178,12 @@
       height: auto;
     }
 
+    .main-presentacion p {
+      position: absolute;
+      font-size: 36px;
+      margin-top: 500px;
+    }
+
   @media (max-width: 640px) {
     .menu {
       display: block;
