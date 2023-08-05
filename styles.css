@@ -13,6 +13,20 @@
     margin: 0;
     font-family: 'Quicksand', sans-serif;
   }
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--text-input-field);
+  }
 
   .inactive {
       display: none;
@@ -160,9 +174,8 @@
 
     /*test*/
     .test-imagen {
-      width: 700px;
-      height:100%;
-      margin: 0 200px;
+      max-width: 100%;
+      height: auto;
     }
 
   @media (max-width: 640px) {
@@ -175,6 +188,16 @@
     .navbar-email {
       display: none;
     }
+    .desktop-menu {
+      display: none;
+    }
+    .test-imagen {
+      display: none;
+    }
   }
 
-
+  @media (min-width: 641px) {
+    .mobile-menu {
+      display: none;
+    }
+  }
