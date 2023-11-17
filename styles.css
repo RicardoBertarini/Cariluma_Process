@@ -313,6 +313,18 @@
   margin-bottom: 0;
   color: var(--very-light-pink);
 }
+.main-container {
+    display: grid;
+    grid-template: repeat(25, 1fr) / repeat(25, 1fr);
+    height: 100vh;
+}
+
+.menu1 {
+  grid-column: 1 / 26;
+    grid-row: 4 / 7;
+    background: black;
+}
+
 
 /**/
   @media (max-width: 980px) {
