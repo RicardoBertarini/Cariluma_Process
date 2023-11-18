@@ -42,7 +42,7 @@
     height: 100vh;
   }
 
-  .nav-container {
+  .nav {
     background: var(--very-light-pink);
     grid-column: 1 / 41;
     grid-row: 1 / 5;
